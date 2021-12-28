@@ -12,6 +12,8 @@ background: black;
 }
 .botoes {
 
+    font-family: sans-serif;
+    font-size: 14px;
 }
 
 
@@ -19,8 +21,8 @@ background: black;
 
 position: absolute;
 padding:10px;
-box-shadow: 1px 0px 1px 4px rgba(255, 255, 255, 0.5)
-;
+
+border: 1px solid white;
 
 width: 200px;
 text-align: end;
@@ -116,3 +118,103 @@ text-decoration: none;
   background: violet;
   transition: 1.4s ease;
     }
+
+    .botoes .git{
+
+        position: absolute;
+        padding:10px;
+        border: 1px solid white;
+        
+        width: 200px;
+        text-align:end ;
+        
+        top: 400px;
+        left: 50px;
+        background-image: linear-gradient(to right , rgb(99, 91, 91) , black);
+        border-radius: 10px;   
+    
+    }
+    .botoes .git  a {
+
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+     }
+
+
+
+
+
+
+     .gitimg{
+
+   
+        position: absolute;
+        width: 40px;
+        height: 40px;
+         
+       top: 409px;
+   
+       left: 60px;
+
+    }
+
+    .botoes .git:hover{
+
+    background: rgb(121, 120, 120);
+    transition: 1.5s ease;
+    }
+
+    .botoes .Link{
+
+        position: absolute;
+        padding:10px;
+        
+        border: 1px solid rgb(112, 112, 255) ;
+        
+        width: 200px;
+        text-align: end;
+        
+        top: 500px;
+        left: 50px;
+       background: white;
+        border-radius: 10px;
+        }
+        
+
+        .botoes .Link   a {
+
+             color: rgb(60, 111, 223);
+             text-decoration: none;
+             padding: 20px;
+        }
+
+
+        .Linkimg{
+
+   
+            position: absolute;
+            width: 40px;
+            height: 40px;
+             
+           top: 509px;
+       
+           left: 60px;
+    
+        }
+    
+
+        .botoes .Link:hover{
+        
+        
+        background: rgba(70, 70, 235, 0.616);
+        transition: 1.5s;
+
+        }
+
+        .botoes .Link   a:hover{
+
+            transition: 1.5s;
+            color: white;
+        }
